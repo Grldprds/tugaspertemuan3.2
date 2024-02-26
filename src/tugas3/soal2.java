@@ -23,7 +23,7 @@ public class soal2 {
         System.out.println("Masukkan Angka Ketiga : ");
         int angka3 = scanner.nextInt();
         
-        if(angka1 > angka2 && angka1 > angka2 ){
+        if(angka1 > angka2 && angka1 > angka3 ){
             System.out.println("Angka Pertama Merupakan Paling Besar");
         }else if(angka2 > angka1 && angka2 > angka3){
             System.out.println("Angka Kedua Merupakan Paling Besar");
